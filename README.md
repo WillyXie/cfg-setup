@@ -3,12 +3,13 @@ Example configure setup for tools.
 
 ## Prerequisites
 ```
-$ apt-get install curl vim tmux
+$ apt-get install curl fish vim tmux
 ```
 
 ## Setup configuration files
 ```
-$ cp ./* ~/
+$ chmod +x ./setup.sh
+$ ./setup.sh
 ```
 
 ## Vim

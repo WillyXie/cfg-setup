@@ -1,0 +1,1 @@
+cp ./src/.tmux.conf ./src/.vimrc ~/
