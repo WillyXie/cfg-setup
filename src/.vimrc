@@ -3,10 +3,11 @@ call plug#begin()
   Plug 'morhetz/gruvbox'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
-  Plug 'preservim/nerdtree'
   Plug 'airblade/vim-gitgutter'
   Plug 'nathanaelkane/vim-indent-guides'
+  Plug 'preservim/nerdtree'
   Plug 'edkolev/tmuxline.vim'
+  Plug 'rhysd/vim-clang-format'
 call plug#end()
 
 " Color configuration
