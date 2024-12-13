@@ -1,3 +1,7 @@
+" Extend default configuration
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
+
 " Plugin
 call plug#begin()
   Plug 'morhetz/gruvbox'
